@@ -7,31 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* float 해제하는 여러가지 방법들 */
-        ul {}
-
-        /* clear-fix */
-        ul::after {
-            display: block;
-            content: '';
-            clear: both;
+        body {
+            font-size: 0;
         }
 
-        li {
-            float: left;
-            width: 300px;
+        div {
+            display: inline-block;
+            width: 100px;
             height: 100px;
             background: pink;
+            /* margin: 20 px; */
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <div>안녕하세요</div>
+    <div>안녕하세요</div>
+    <div>안녕하세요</div>
 </body>
 
 </html>
