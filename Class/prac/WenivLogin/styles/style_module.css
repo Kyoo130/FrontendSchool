@@ -71,10 +71,11 @@
     display: block;
     content:"";
     float:left;
-    width:22px;
-    height:22px;
+    /* width:22px; */
+    width: 22px;
+    height: 22px;
     margin-left:16px;
-    background-image:url("../images/icon_google.png");
+    background: url('../images/css_sprites.png') -136px -78px;
 }
 
 .link-sns-login.icon-naver{
@@ -82,22 +83,20 @@
 }
 
 .link-sns-login.icon-naver::before{
-    background-image:url("../images/icon_naver.png");
+    background-position: -178px -78px;
 }
+
 .link-sns-login.icon-facebook{
     border-color:#2D9CDB;
 }
-
 .link-sns-login.icon-facebook::before{
-    /* background-image:url("../images/icon_facebook.png");
-    background-repeat:no-repeat;
-    background-position: center; */
-    background:url("../images/icon_facebook.png") center no-repeat;
+    background-position: -5px -120px;
+    background-repeat: no-repeat;
 }
+
 .link-sns-login.icon-kakao{
     border-color:#F2C94C;
 }
-
 .link-sns-login.icon-kakao::before{
-    background-image:url("../images/icon_kakao.png");
+    background-position: -94px -78px;
 }
